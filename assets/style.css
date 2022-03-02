@@ -67,6 +67,22 @@ footer a {
 }
 
 /* sections */
-section {
-    padding: 60px;
-}
+
+/* hero */
+    section {
+        padding: 60px;
+    }
+    section.hero {
+        background-image: url("./images/hero-bg.jpg");
+        height: 600px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .formCont {
+        background-color: #fce138;
+        padding: 20px;
+        width: 500px;
+        color: #024e76;
+        border: 3px solid #024e76
+    }
