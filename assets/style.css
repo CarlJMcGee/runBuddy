@@ -43,76 +43,53 @@ header nav ul li a {
     font-size: 22px;
 }
 
-/* footer */
-footer {
-    background-color: #fce138;
-    width: 100%;
-    padding: 40px 35px;
-}
-
-footer h3 {
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-}
-
-footer div {
-    float: right;
-    line-height: 1.5;
-    text-align: right;
-}
-
-footer a {
-    color: #024e76;
-}
 
 /* sections */
 
-    /* hero/form */
-        section {
-            padding: 60px;
-        }
-        section.hero {
-            background-image: url("./images/hero-bg.jpg");
-            height: 600px;
-            background-size: cover;
-            background-position: center;
-            position: relative;
-        }
+/* hero/form */
+section {
+    padding: 60px;
+}
+section.hero {
+    background-image: url("./images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
 
-        /* form header */
-        h3.form {
-            font-size: 175%;
-            margin: 0;
-        }
+/* form header */
+h3.form {
+    font-size: 175%;
+    margin: 0;
+}
 
-        .formCont {
-            background-color: #fce138;
-            border: 3px solid #024e76;
-            color: #024e76;
+.formCont {
+    background-color: #fce138;
+    border: 3px solid #024e76;
+    color: #024e76;
             padding: 15px;
             width: 500px;
             position: absolute;
             bottom: 120px;
             right: 140px;
         }
-
+        
         .form {
             margin: 20px 20px 20px 0;
         }
-
+        
         p.form {
             margin-left: 0;
         }
-
+        
         /* name/email/phone */
         .nep {
             width: 100%;
             height: 30px;
             border: 1px solid #024e76;
         }
-
+        
         /* get running submit button */
         #getrunbtn {
             background-color: #024e76;
@@ -122,22 +99,25 @@ footer a {
             margin-bottom: -13px;
             font-size: 16px;
         }
-
-    /* what we do */
+        
         .sectHead {
             text-align: center;
         }
-
+        
         .sectHead h2 {
             font-size: 55px;
             color: #024e76;
             margin-bottom: 35px;
             padding: 0 100px 20px 100px;
-            border-bottom: 3px solid #fce138;
+            border-bottom: 3px solid;
             display: inline-block;
-
         }
-
+        
+        /* what we do */
+        .aboutus h2 {
+            border-color: #fce138;
+        }
+        
         .sectHead p {
             line-height: 1.7;
             color: #39a6b2;
@@ -145,3 +125,60 @@ footer a {
             font-size: 20px;
             margin: 0 auto;
         }
+        /* what you do */
+        .steps {
+            background-color: #fce138;
+        }
+        
+        .steps h2 {
+            border-color: #024e76;
+        }
+        
+        .steps div {
+            margin-bottom: 80px;
+        }
+        
+        .steps img {
+            width: 15%;
+            margin: 10px 0;
+        }
+        
+        .steps h3 {
+            color: #024e76;
+            font-size: 46px;
+            margin-top: 10px;
+            text-transform: capitalize;
+        }
+        
+        .steps p {
+            color: #39a6b2;
+            font-size: 23px;
+        }
+        
+        .steps span {
+            font-size: 38px;
+        }
+           
+    /* footer */
+    footer {
+        background-color: #fce138;
+        width: 100%;
+        padding: 40px 35px;
+    }
+    
+    footer h3 {
+        display: inline;
+        color: #024e76;
+        font-size: 30px;
+        margin: 0;
+    }
+    
+    footer div {
+        float: right;
+        line-height: 1.5;
+        text-align: right;
+    }
+    
+    footer a {
+        color: #024e76;
+    }
