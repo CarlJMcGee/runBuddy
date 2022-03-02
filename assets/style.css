@@ -69,56 +69,79 @@ footer a {
 
 /* sections */
 
-/* hero */
-    section {
-        padding: 60px;
-    }
-    section.hero {
-        background-image: url("./images/hero-bg.jpg");
-        height: 600px;
-        background-size: cover;
-        background-position: center;
-        position: relative;
-    }
+    /* hero/form */
+        section {
+            padding: 60px;
+        }
+        section.hero {
+            background-image: url("./images/hero-bg.jpg");
+            height: 600px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
 
-    /* form header */
-    h3.form {
-        font-size: 175%;
-        margin: 0;
-    }
+        /* form header */
+        h3.form {
+            font-size: 175%;
+            margin: 0;
+        }
 
-    .formCont {
-        background-color: #fce138;
-        border: 3px solid #024e76;
-        color: #024e76;
-        padding: 15px;
-        width: 500px;
-        position: absolute;
-        bottom: 120px;
-        right: 140px;
-    }
+        .formCont {
+            background-color: #fce138;
+            border: 3px solid #024e76;
+            color: #024e76;
+            padding: 15px;
+            width: 500px;
+            position: absolute;
+            bottom: 120px;
+            right: 140px;
+        }
 
-    .form {
-        margin: 20px 20px 20px 0;
-    }
+        .form {
+            margin: 20px 20px 20px 0;
+        }
 
-    p.form {
-        margin-left: 0;
-    }
+        p.form {
+            margin-left: 0;
+        }
 
-    /* name/email/phone */
-    .nep {
-        width: 100%;
-        height: 30px;
-        border: 1px solid #024e76;
-    }
+        /* name/email/phone */
+        .nep {
+            width: 100%;
+            height: 30px;
+            border: 1px solid #024e76;
+        }
 
-    /* get running submit button */
-    #getrunbtn {
-        background-color: #024e76;
-        color: #fce138;
-        padding: 14px 17px 14px 17px;
-        border-style: none;
-        margin-bottom: -13px;
-        font-size: 16px;
-    }
+        /* get running submit button */
+        #getrunbtn {
+            background-color: #024e76;
+            color: #fce138;
+            padding: 14px 17px 14px 17px;
+            border-style: none;
+            margin-bottom: -13px;
+            font-size: 16px;
+        }
+
+    /* what we do */
+        .sectHead {
+            text-align: center;
+        }
+
+        .sectHead h2 {
+            font-size: 55px;
+            color: #024e76;
+            margin-bottom: 35px;
+            padding: 0 100px 20px 100px;
+            border-bottom: 3px solid #fce138;
+            display: inline-block;
+
+        }
+
+        .sectHead p {
+            line-height: 1.7;
+            color: #39a6b2;
+            width: 80%;
+            font-size: 20px;
+            margin: 0 auto;
+        }
