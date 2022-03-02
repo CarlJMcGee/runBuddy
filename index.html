@@ -11,6 +11,7 @@
     <!-- navigation -->
     <header>
         <h1>Run Buddy</h1>
+        <!-- Nav links -->
         <nav>
             <ul>
                 <li>
@@ -28,11 +29,43 @@
             </ul>
         </nav>
     </header>
-    
-    <!-- hero -->
+
+    <!-- hero/sign up -->
     <section>
+        <div>
+            <h3>Get Started Today</h3>
+            <p>Fill out this form and one of our trainers will schedule a consult</p>
+            
+            <!-- name/email/phone -->
+                <form>
+                    <label for="name">Enter Full Name:</label>
+                    <input type="text" placeholder="Your Name" id="name">
+                    <label for="email">Enter Email Address</label>
+                    <input type="text" placeholder="Your Email" id="email">
+                    <label for="phone">Enter Phone Number</label>
+                    <input type="text" placeholder="Your Phone Number" id="phone">
+            <!-- y/n -->
+                <!-- trainer? -->
+                <p>
+                    Have you worked with a trainer before?
+                    <input type="radio" name="trainer-confirm" id="trainer-yes">
+                    <label for="trainer-yes">Yes</label>
+                    <input type="radio" name="trainer-confirm" id="trianer-no">
+                    <label for="trainer-no">No</label>
+                </p>
+                <!-- 18+? -->
+                <label for="18+">
+                    <p>
+                        <input type="checkbox" name="18+-confirm" id="18+">
+                        I acknowledge that I am at least 18 years of age
+                    </p>
+                </label>
+            
+            <!-- submit -->
+            <button type="submit">Get Running!</button>
+        </div>
     </section>
-    
+        
     <!-- what we do -->
     <section class="sectHead" id="wwd">
         <h2>What We Do</h2>
