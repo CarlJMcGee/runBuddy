@@ -77,12 +77,31 @@ footer a {
         height: 600px;
         background-size: cover;
         background-position: center;
+        position: relative;
     }
+
+    /* form header */
+    
 
     .formCont {
         background-color: #fce138;
-        padding: 20px;
-        width: 500px;
+        border: 3px solid #024e76;
         color: #024e76;
-        border: 3px solid #024e76
+        padding: 15px;
+        width: 500px;
+        position: absolute;
+        bottom: 120px;
+        right: 140px;
+    }
+
+    .form {
+        margin: 20px 20px 20px 0;
+    }
+
+    p.form {
+        margin-left: 0;
+    }
+    /* name/email/phone */
+    .nep {
+        width: 100%;
     }
