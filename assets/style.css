@@ -213,26 +213,78 @@ h3.form {
         }
 
            
-    /* footer */
-    footer {
-        background-color: #fce138;
-        width: 100%;
-        padding: 40px 35px;
+/* Reach out */
+
+    #reachOut {
+        background-color: #024e76;
     }
+
+    /* header */
+        #reachOut h2 {
+            color: #fce138;
+            border-color: #39a6b2;
+        }
     
-    footer h3 {
-        display: inline;
-        color: #024e76;
-        font-size: 30px;
-        margin: 0;
-    }
-    
-    footer div {
-        float: right;
-        line-height: 1.5;
-        text-align: right;
-    }
-    
-    footer a {
-        color: #024e76;
-    }
+    /* info */
+        .contact {
+            position: relative;
+        }    
+
+        .contactInfo {
+            text-align: left;
+        }
+
+        .contactInfo iframe {
+            width: 400px;
+            height: 400px;
+            margin-left: 196px;
+        }
+
+        #info {
+            display: inline-block;
+            vertical-align: top;
+            position: absolute;
+            top: 214px;
+            left: 709px;
+            color: white;
+        }
+
+        #info h3 {
+            color: #fce138;
+            font-size: 32px;
+        }
+
+        #info p, #info address {
+            margin: 20px 0;
+            line-height: 1.5;
+            font-size: 20px;
+            font-style: normal;
+        }
+
+        #info a {
+            color: #fce138;
+        }
+
+/* footer */
+footer {
+    background-color: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h3 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
+}
